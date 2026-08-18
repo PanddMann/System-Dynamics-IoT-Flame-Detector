@@ -408,7 +408,8 @@ void loop() {
 
     }
   } else {
-
+// this is the OFF state code
+    
     tb.sendTelemetryData("envHumd", 0);
     tb.sendTelemetryData("envTemp", 0);
     digitalWrite(LEDblue, HIGH);
